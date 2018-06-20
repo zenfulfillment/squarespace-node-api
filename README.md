@@ -8,5 +8,5 @@ const squarespace = require('squarespace-node-api')({
 });
 
 squarespace.get('orders')
-  .then((res) => console.log(res.Data));
+  .then((orders) => console.log(orders));
 ```
