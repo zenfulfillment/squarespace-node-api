@@ -1,0 +1,28 @@
+{
+  "name": "squarespace-node-api",
+  "version": "1.0.0",
+  "description": "Node module to access Squarespace Commerce API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zenfulfillment/squarespace-node-api.git"
+  },
+  "keywords": [
+    "squarespace",
+    "api"
+  ],
+  "author": "Denis Ciccale (denis@zenfulfillment.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenfulfillment/squarespace-node-api/issues"
+  },
+  "homepage": "https://github.com/zenfulfillment/squarespace-node-api#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
