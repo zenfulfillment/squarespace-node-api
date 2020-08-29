@@ -34,7 +34,7 @@ module.exports = ({apiKey = ''}) => {
         return rejectMissingArg('url');
       }
 
-      if (!body || !isEmptyObject(body)) {
+      if (!body || isEmptyObject(body)) {
         return rejectMissingArg('body');
       }
 
