@@ -1,6 +1,6 @@
 {
   "name": "squarespace-node-api",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Node module to access Squarespace Commerce API",
   "main": "index.js",
   "scripts": {
